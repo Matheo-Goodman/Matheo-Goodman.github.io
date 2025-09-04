@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Portfolio de Matheo Goodman - Développeur Full Stack" />
-        <meta name="author" content="Matheo Goodman" />
-        <title>Matheo Goodman - Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono:300,400,500,600,700" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Custom Portfolio Styles -->
-        <link href="css/custom-styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Matheo Goodman</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheo Goodman - Développeur Full Stack</title>
+    <meta name="description" content="Portfolio de Matheo Goodman - Développeur Full Stack passionné par la création d'applications web modernes">
+    <meta name="keywords" content="développeur, full stack, web, applications, Matheo Goodman">
+    <meta name="author" content="Matheo Goodman">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Matheo Goodman</a>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <div class="hero-content">
-                            <h1 class="mx-auto my-0 hero-title">Matheo Goodman</h1>
-                            <h2 class="text-white-50 mx-auto mt-2 mb-4 hero-subtitle">Développeur Full Stack</h2>
-                            <p class="text-white-50 mx-auto mb-5 hero-description">
-                                Passionné par la création d'expériences web innovantes et performantes
-                            </p>
-                            <div class="hero-buttons">
-                                <a class="btn btn-primary me-3" href="#projects">Voir mes projets</a>
-                                <a class="btn btn-outline-light" href="#contact">Me contacter</a>
-                            </div>
-                        </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Accueil</a>
+                <a href="#about" class="nav-link">À propos</a>
+                <a href="#skills" class="nav-link">Compétences</a>
+                <a href="#experience" class="nav-link">Expérience</a>
+                <a href="#projects" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Salut, je suis <span class="highlight">Matheo Goodman</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Développeur Full Stack</h2>
+                    <p class="hero-description">
+                        Passionné par la création d'applications web modernes et performantes. 
+                        Je transforme vos idées en solutions numériques innovantes.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="assets/img/demo-image-01.jpg" alt="Matheo Goodman" class="profile-img">
+                        <div class="image-overlay"></div>
                     </div>
                 </div>
             </div>
@@ -59,318 +74,333 @@
                     <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
-        </header>
-        <!-- About-->
-        <section class="about-section" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <h2 class="text-white mb-4 section-title">À propos de moi</h2>
-                            <p class="text-white-50 mb-4">
-                                Je suis Matheo Goodman, un développeur full stack passionné par la création d'applications web modernes et performantes. 
-                                Avec une expertise en développement frontend et backend, je transforme les idées en solutions numériques innovantes.
-                            </p>
-                            <p class="text-white-50 mb-4">
-                                Mon approche se concentre sur l'écriture de code propre, l'expérience utilisateur optimale et les technologies de pointe. 
-                                J'aime relever de nouveaux défis et apprendre continuellement dans l'écosystème technologique en constante évolution.
-                            </p>
-                            <div class="about-stats">
-                                <div class="stat-item">
-                                    <h3 class="text-primary">50+</h3>
-                                    <p class="text-white-50">Projets réalisés</p>
-                                </div>
-                                <div class="stat-item">
-                                    <h3 class="text-primary">3+</h3>
-                                    <p class="text-white-50">Années d'expérience</p>
-                                </div>
-                                <div class="stat-item">
-                                    <h3 class="text-primary">100%</h3>
-                                    <p class="text-white-50">Satisfaction client</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-image">
-                            <div class="image-container">
-                                <img class="img-fluid rounded" src="assets/img/demo-image-01.jpg" alt="Matheo Goodman" />
-                                <div class="image-overlay">
-                                    <div class="overlay-content">
-                                        <i class="fas fa-code fa-3x text-primary"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Skills-->
-        <section class="skills-section" id="skills">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mb-5 section-title">Compétences techniques</h2>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <p class="section-subtitle">Découvrez mon parcours et ma passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Je suis Matheo Goodman, un développeur full stack passionné par la technologie et l'innovation. 
+                        Avec plus de 3 ans d'expérience dans le développement web, j'ai eu l'opportunité de travailler 
+                        sur des projets variés allant des applications web simples aux plateformes complexes.
+                    </p>
+                    <p>
+                        Mon approche se concentre sur l'écriture de code propre, l'expérience utilisateur optimale 
+                        et l'utilisation des technologies les plus récentes. J'aime relever de nouveaux défis et 
+                        apprendre continuellement dans l'écosystème technologique en constante évolution.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projets réalisés</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Années d'expérience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Satisfaction client</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="skill-card">
-                            <div class="skill-icon">
-                                <i class="fab fa-js-square"></i>
-                            </div>
-                            <h4 class="text-white">Frontend</h4>
-                            <p class="text-white-50">React, Vue.js, TypeScript, HTML5, CSS3, Sass</p>
+                <div class="about-image">
+                    <img src="assets/img/demo-image-02.jpg" alt="Matheo Goodman au travail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+                <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vue"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-sass"></i>
+                            <span>Sass</span>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="skill-card">
-                            <div class="skill-icon">
-                                <i class="fas fa-server"></i>
-                            </div>
-                            <h4 class="text-white">Backend</h4>
-                            <p class="text-white-50">Node.js, Python, PHP, Express, Django, Laravel</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="skill-card">
-                            <div class="skill-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <h4 class="text-white">Base de données</h4>
-                            <p class="text-white-50">MongoDB, PostgreSQL, MySQL, Redis</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Outils & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="skill-card">
-                            <div class="skill-icon">
-                                <i class="fab fa-aws"></i>
-                            </div>
-                            <h4 class="text-white">Cloud & DevOps</h4>
-                            <p class="text-white-50">AWS, Docker, Kubernetes, CI/CD</p>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="skill-card">
-                            <div class="skill-icon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <h4 class="text-white">Mobile</h4>
-                            <p class="text-white-50">React Native, Flutter, Ionic</p>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="skill-card">
-                            <div class="skill-icon">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <h4 class="text-white">Outils</h4>
-                            <p class="text-white-50">Git, Webpack, Vite, Figma, VS Code</p>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Azure</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Projects-->
-        <section class="projects-section" id="projects">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mb-5 section-title">Mes projets</h2>
-                    </div>
-                </div>
-                
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="project-image-container">
-                            <img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="E-commerce Platform" />
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="btn btn-primary me-2"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
-                                    <a href="#" class="btn btn-outline-light"><i class="fab fa-github"></i> Code source</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4 class="text-white">Plateforme E-commerce</h4>
-                            <p class="text-white-50 mb-3">Application web complète avec React, Node.js et MongoDB. Système de paiement intégré, gestion des stocks et interface d'administration.</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Node.js</span>
-                                <span class="tech-tag">MongoDB</span>
-                                <span class="tech-tag">Stripe</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="project-image-container">
-                            <img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="Task Management App" />
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="btn btn-primary me-2"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
-                                    <a href="#" class="btn btn-outline-light"><i class="fab fa-github"></i> Code source</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="bg-dark text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Application de Gestion de Tâches</h4>
-                                    <p class="mb-3 text-white-50">Application de productivité avec authentification, collaboration en temps réel et notifications push.</p>
-                                    <div class="project-tech">
-                                        <span class="tech-tag">Vue.js</span>
-                                        <span class="tech-tag">Express</span>
-                                        <span class="tech-tag">Socket.io</span>
-                                        <span class="tech-tag">PostgreSQL</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="project-image-container">
-                            <img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="Weather Dashboard" />
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="btn btn-primary me-2"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
-                                    <a href="#" class="btn btn-outline-light"><i class="fab fa-github"></i> Code source</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-dark text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Dashboard Météo</h4>
-                                    <p class="mb-3 text-white-50">Interface moderne avec visualisations interactives, prévisions détaillées et géolocalisation automatique.</p>
-                                    <div class="project-tech">
-                                        <span class="tech-tag">React</span>
-                                        <span class="tech-tag">D3.js</span>
-                                        <span class="tech-tag">API REST</span>
-                                        <span class="tech-tag">PWA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mon expérience</h2>
+                <p class="section-subtitle">Mon parcours professionnel</p>
             </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="fas fa-envelope fa-2x mb-2 text-primary"></i>
-                        <h2 class="text-white mb-5">Travaillons ensemble</h2>
-                        <p class="text-white-50 mb-5">
-                            Vous avez un projet en tête ? N'hésitez pas à me contacter pour discuter de vos besoins et voir comment je peux vous aider à les concrétiser.
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Développeur Full Stack Senior</h3>
+                        <h4>TechCorp Solutions</h4>
+                        <span class="timeline-date">2022 - Présent</span>
+                        <p>
+                            Développement d'applications web complexes avec React et Node.js. 
+                            Gestion d'équipes de développement et architecture de solutions scalables.
                         </p>
-                        <form class="contact-form" id="contactForm">
-                            <div class="row gx-3 mb-3">
-                                <div class="col-md-6">
-                                    <input class="form-control" id="name" type="text" placeholder="Votre nom" required />
-                                </div>
-                                <div class="col-md-6">
-                                    <input class="form-control" id="email" type="email" placeholder="Votre email" required />
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <input class="form-control" id="subject" type="text" placeholder="Sujet" required />
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control" id="message" rows="5" placeholder="Votre message" required></textarea>
-                            </div>
-                            <button class="btn btn-primary" type="submit">Envoyer le message</button>
-                        </form>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Développeur Frontend</h3>
+                        <h4>Digital Agency Pro</h4>
+                        <span class="timeline-date">2021 - 2022</span>
+                        <p>
+                            Création d'interfaces utilisateur modernes avec React et Vue.js. 
+                            Collaboration avec les designers pour optimiser l'expérience utilisateur.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Développeur Junior</h3>
+                        <h4>StartupTech</h4>
+                        <span class="timeline-date">2020 - 2021</span>
+                        <p>
+                            Développement de fonctionnalités web avec JavaScript et PHP. 
+                            Apprentissage des bonnes pratiques et des méthodologies agiles.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Contact Info-->
-        <section class="contact-info-section bg-dark">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes projets</h2>
+                <p class="section-subtitle">Quelques-unes de mes réalisations</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/bg-masthead.jpg" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
                             </div>
-                            <h4 class="text-white">Localisation</h4>
-                            <p class="text-white-50">Paris, France</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <h4 class="text-white">Email</h4>
-                            <p class="text-white-50">matheo.goodman@email.com</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <h4 class="text-white">Téléphone</h4>
-                            <p class="text-white-50">+33 6 12 34 56 78</p>
+                    <div class="project-content">
+                        <h3>Plateforme E-commerce</h3>
+                        <p>Application web complète avec React, Node.js et MongoDB. Système de paiement intégré et interface d'administration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
                         </div>
                     </div>
                 </div>
-                <div class="social-links text-center mt-5">
-                    <h5 class="text-white mb-4">Suivez-moi</h5>
-                    <div class="social-icons">
-                        <a href="#" class="social-icon" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-icon" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="social-icon" title="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon" title="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/demo-image-01.jpg" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Application de Gestion de Tâches</h3>
+                        <p>Application de productivité avec authentification, collaboration en temps réel et notifications push.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/demo-image-02.jpg" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard Météo</h3>
+                        <p>Interface moderne avec visualisations interactives, prévisions détaillées et géolocalisation automatique.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">API REST</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black text-center text-white-50">
-            <div class="container px-4 px-lg-5">
-                <p>&copy; 2024 Matheo Goodman. Tous droits réservés.</p>
-                <p class="small">Développé avec ❤️ par Matheo Goodman</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">Travaillons ensemble sur votre prochain projet</p>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- Custom Portfolio JS -->
-        <script src="js/portfolio.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>matheo.goodman@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 6 12 34 56 78</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Matheo Goodman. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
 </html>
